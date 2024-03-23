@@ -548,8 +548,29 @@
             <img src="../img/grab-a-coffee.jpg" alt="Image d'une tasse de café" width="100%">
           </div>
           <div class="col-12 offset-md-1 col-md-6">
-            <div class="bg-secondary h-100 w-100 py-5">
-            </div>
+
+            <form action="" class="row gy-4">
+              <div class="col-6">
+                <label for="prenom" class="form-label">Prénom</label>
+                <input type="text" class="form-control" name="prenom" id="prenom"> 
+              </div>
+              <div class="col-6">
+                <label for="nom" class="form-label">Nom</label>
+                <input type="text" class="form-control" name="nom" id="nom">
+              </div>
+              <div class="col-12">
+                <label for="email" class="form-label">Adresse Mail</label>
+                <input type="text" class="form-control" name="email" id="email">
+              </div>
+              <div class="col-12">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" name="message" id="message" rows="3"></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary w-100">Envoyer</button>
+              </div>
+            </form>
+
           </div>
         </div>
       </div>
