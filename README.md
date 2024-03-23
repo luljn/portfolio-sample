@@ -1,6 +1,6 @@
 # Description.
 
-A sample of portfolio made with Bootstrap.
+A sample of portfolio (in a single page) made with Bootstrap 5.
 
 ## Author.
 
